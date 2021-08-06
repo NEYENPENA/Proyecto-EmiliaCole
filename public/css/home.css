@@ -1,0 +1,23 @@
+body.home {
+    background-image: url('/images/emilia-home.jpg');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: right -110px;
+}
+
+.home h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    line-height: 36px;
+    letter-spacing: 5px;
+    margin-left: 60px;
+}
+
+.home h1{
+    font-size: 65px;
+    font-family:'Raleway', sans-serif;
+    background-color: rgba(255, 255, 255, .5);
+
+}
