@@ -1,0 +1,20 @@
+.contact h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+} 
+.contact h2{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.contact article{
+    margin-top: 30px;
+}
+.contact h4{
+    margin-bottom: 30px;
+    color: var(--colorVerde);
+}
+
+.contact article a{
+    color: grey;
+}

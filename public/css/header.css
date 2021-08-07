@@ -1,4 +1,7 @@
 /* header del home */
+header {
+    padding-top: 30px;
+}
 
 header nav {
     margin-left: 60px;
@@ -8,6 +11,9 @@ header nav ul li a {
         line-height: 30px;
         color: grey;
         text-transform: uppercase;
+}
+header nav a{
+    color:black
 }
 
 /* header horizontal */
@@ -33,4 +39,13 @@ header.row nav ul li a {
 
 header.row nav {
     text-align: right;
+}
+header.music {
+    background-image: url(/images/emilia-music-top.jpg);
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header.music nav{
+    margin-left: 0px;
 }

@@ -1,7 +1,7 @@
 body.about{
     background-image: url('/images/emilia-about.jpg');
     background-repeat: no-repeat;
-    background-size: 75%;
+    background-size: 71%;
     background-position: right -110px;
 }
 .about section{
@@ -10,7 +10,7 @@ body.about{
 }
 
 .about h3{
-    color: #44a391;
+    color: var(--colorVerde);
     font-size: 24px;
 }
 .about p{
