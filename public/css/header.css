@@ -1,21 +1,36 @@
-header {
-
-}
+/* header del home */
 
 header nav {
     margin-left: 60px;
-}
-
-header nav ul {
-
-}
-
-header nav ul li {
-
 }
 
 header nav ul li a {
         line-height: 30px;
         color: grey;
         text-transform: uppercase;
+}
+
+/* header horizontal */
+
+header.row nav ul li{
+    display: inline-block;
+    border-left: 1px solid black;
+    padding: 0px 10px 0px 10px;
+}
+header.row nav.menu{
+    background-color: rgba(255, 255, 255, .5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header.row nav ul li:last-child{
+    border-right: 1px solid black;
+}
+header.row nav ul li a {
+    color: black;
+    line-height: 20px;
+}   
+
+header.row nav {
+    text-align: right;
 }

@@ -22,3 +22,8 @@ a {
 li {
   list-style: none;
 }
+
+.titulo{
+  font-size: 65px;
+  font-family:'Raleway', sans-serif;
+}
